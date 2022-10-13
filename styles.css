@@ -14,6 +14,36 @@ a {
   margin-left: 0px;
 
 }
+
+.font{
+
+  font-style: Katibeh;
+  color: black;
+  font-size: 20px;
+
+
+}
+
+.heading{
+  font-style: Katibeh;
+  color: black;
+  font-size: 40px;
+
+  float: left;
+
+
+}
+
+#section1 {
+  height: 800px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 600px;
+  background-color: yellow;
+}
+
 nav,
 .scroll-container {
 
@@ -27,6 +57,8 @@ nav {
   width: 600px;
   padding: 5px;
 }
+
+
 .scroll-container {
   background-color: #E8E6E8;
   width: 95%;
@@ -41,4 +73,4 @@ nav {
   height: 100%;
   font-size: 5em;
 }
-back
+
