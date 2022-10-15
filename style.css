@@ -84,6 +84,15 @@
   margin: auto;
 }
 
+#col {
+    flex: 30%;
+    padding: 5px;
+  }
+
+#cont {
+     display: flex;
+  }
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
