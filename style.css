@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@import url('http://fonts.cdnfonts.com/css/kodchasan');
 /* font-family: 'Playfair Display', serif; */
 
 .info {position: fixed; left: 10px; bottom: 30px;}
@@ -6,7 +7,7 @@
 .info .offset_top:before {content:'offset'; position:absolute; left: 50%; top: -40px; transform: translatex(-50%); }
 .info .scroll_top:before {content:'scroll'; position:absolute; left: 50%; top: -40px; transform: translatex(-50%); }
 
-#nav {overflow:hidden; position:fixed; height: 100px;left:0; top:0; width: 100%; background-color: black;}
+#nav {overflow:hidden; position:fixed; height: 100px;left:0; top:0; width: 100%; background-color: black; z-index: 100;}
 #nav h1 {
   font-style: Katibeh;
   color: #EC6D02;
@@ -33,20 +34,21 @@
 #section2 {background-color: #EC6D02;}
 #section3 {background-color: #4dd0e1;}
 #section4 {background-color: #4fc3f7;}
-#section5 {background-color: #c0ca33;}
-#section6 {background-color: #7cb342;}
+#section5 {background-color: #c0ca33 ; }
+#section6 {background-color: #7cb342; }
 #section7 {background-color: black;}
 #section8 {background-color: black;}
+#section9 {background-color: black;}
 
 #Katibeh{
-  font-style: Kodchasan;
+  font-family: 'Kodchasan', sans-serif;
   color: black;
   font-size: 60px;
   
 }
 
 #highlight{
-  font-style: Kodchasan;
+  font-family: 'Kodchasan', sans-serif;
   color: #DD71E6;
   font-size:15px;
   
@@ -54,19 +56,32 @@
 
 
 #head{
-  font-style: Kodchasan;
-  color: #DD71E6;
+  font-family: 'Kodchasan', sans-serif;
+  color: white;
   font-size:64px;
+
 
 
 }
 
 #small{
-  font-style: Kodchasan;
-  color: #DD71E6;
+  font-family: 'Kodchasan', sans-serif;
+  color: #E8D3EA;
   font-size:40px;
 
 
+}
+
+#screen {
+  background-color: #2B2C2A;
+  width: 80%;
+  height: 100%;
+  border-radius: 25px;
+
+  z-index: -100;
+
+
+  margin: auto;
 }
 
 
@@ -212,6 +227,28 @@
     -ms-transform: translateX(100%);
     -o-transform: translateX(100%);
     transform: translateX(100%);
+  }
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
 }
 
