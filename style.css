@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+/* font-family: 'Playfair Display', serif; */
+
+.info {position: fixed; left: 10px; bottom: 30px;}
+.info span {position:relative; background: rgba(0,0,0,0.6); padding: 10px; border-radius: 50%; color:#fff; width:50px; height:50px; display: inline-block; margin:3px; text-align:center; line-height: 50px;  }
+.info .offset_top:before {content:'offset'; position:absolute; left: 50%; top: -40px; transform: translatex(-50%); }
+.info .scroll_top:before {content:'scroll'; position:absolute; left: 50%; top: -40px; transform: translatex(-50%); }
+
+#nav {overflow:hidden; position:fixed; height: 100px;left:0; top:0; width: 100%; background-color: black;}
+#nav h1 {
+  font-style: Katibeh;
+  color: #EC6D02;
+  font-size: 40px;
+  float:left; 
+  padding:12px 5px 5px 20px; 
+  font-weight:900;  }
+#nav ul {float:right;}
+#nav ul li {display: inline;}
+#nav ul li a {
+  font-style: Katibeh;
+  color: white;
+  font-size: 20px;
+  padding: 20px 10px; 
+  text-decoration: none; 
+  display:inline-block;}
+#nav ul li.active a {color:#EC6D02; border-bottom: 3px solid #EC6D02;}
+
+#contents {text-align: center; font-size: 50px; color:#fff; font-weight:100; font-family: 'Playfair Display', serif;}
+#contents > div {height: 100vh; line-height: 100vh;}
+
+
+#section1 {background-color: #E8E6E8;}
+#section2 {background-color: #EC6D02;}
+#section3 {background-color: #4dd0e1;}
+#section4 {background-color: #4fc3f7;}
+#section5 {background-color: #c0ca33;}
+#section6 {background-color: #7cb342;}
+#section7 {background-color: black;}
+
+#Katibeh{
+  font-style: Kodchasan;
+  color: black;
+  font-size: 60px;
+  
+}
+
+#highlight{
+  font-style: Kodchasan;
+  color: #DD71E6;
+  font-size:15px;
+  
+}
