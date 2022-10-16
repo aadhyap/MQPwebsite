@@ -23,26 +23,17 @@ $(window).scroll(function () {
 		nav.removeClass("active");
 		nav.eq(0).addClass("active");
 	}
-	if (wScroll >= contents.eq(1).offset().top) {
+	
+	if (wScroll >= contents.eq(7).offset().top) {
 		nav.removeClass("active");
-		nav.eq(1).addClass("active");
+		nav.eq(7).addClass("active");
 	}
-	if (wScroll >= contents.eq(2).offset().top) {
+	if (wScroll >= contents.eq(8).offset().top) {
 		nav.removeClass("active");
-		nav.eq(2).addClass("active");
+		nav.eq(8).addClass("active");
 	}
-	if (wScroll >= contents.eq(3).offset().top) {
-		nav.removeClass("active");
-		nav.eq(3).addClass("active");
-	}
-	if (wScroll >= contents.eq(4).offset().top) {
-		nav.removeClass("active");
-		nav.eq(4).addClass("active");
-	}
-	if (wScroll >= contents.eq(5).offset().top) {
-		nav.removeClass("active");
-		nav.eq(5).addClass("active");
-	}
+
+
 });
 
 var isLast = function(word) {
